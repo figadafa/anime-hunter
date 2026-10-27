@@ -73,6 +73,15 @@ import { Character, Anime,CharacterStatistics } from "../types/character";
             age: 19,
             gender: "Female",
         },
+         {
+            id: 7,
+            name: "Wibu",
+            image: "🧣",
+            description: "Wibu is a fan of anime and manga.",
+            anime: "siapayaa",
+            age: 19,
+            gender: "Female",
+        },
     ];
 
     // 2.2 CREATE ANIME DATA
@@ -101,6 +110,13 @@ import { Character, Anime,CharacterStatistics } from "../types/character";
         {
             id: 4,
             title: "Attack on Titan",
+            episodes: 89,
+            score: 9.0,
+            year: 2013,
+        },
+         {
+            id: 5,
+            title: "Siapa yaa",
             episodes: 89,
             score: 9.0,
             year: 2013,
@@ -146,6 +162,7 @@ import { Character, Anime,CharacterStatistics } from "../types/character";
             4: {popularity: 98, favorites: 450000,rank: 3},
             5: { popularity: 95,favorites: 300000,rank: 4},
             6: {popularity: 90,favorites: 190000,rank: 8},
+            7: {popularity: 85,favorites: 150000,rank: 10},
         };
 
         const result = statistics[characterId]; // [2]
